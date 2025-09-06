@@ -21,6 +21,4 @@ app.get('/api/test', (req, res) => {
   })
 })
 
-app.listen(PORT, () => {
-  console.log('app is listen at port' ,PORT);
-})
+export default app;
