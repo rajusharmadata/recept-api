@@ -1,6 +1,6 @@
 import express from 'express';
-import { ENV } from '../config/env.js';
-import { router } from '../router/user.router.js';
+import { ENV } from './config/env.js';
+import { router } from './router/user.router.js';
 
 const app = express();
 const PORT = ENV.PORT;
@@ -23,4 +23,6 @@ app.get('/', (req, res) => {
   });
 });
 
-export default app;
+app.listen(PORT, () => {
+  console.log("app is listen the port ",PORT);
+})
