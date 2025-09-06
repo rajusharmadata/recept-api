@@ -13,7 +13,14 @@ app.use('/api/v1',router)
 app.get('/api/test', (req, res) => {
   res.status(200).json({
    success:true,
- })
+  })
+  app.get('/', (req, res) => {
+    res.send(200).json({
+      success:true,
+    })
+  })
 })
 
-export default app
+app.listen(PORT, () => {
+  console.log('app is listen at port' ,PORT);
+})
