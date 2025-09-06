@@ -2,10 +2,10 @@
   "name": "myfirstapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/api/index.js"
   },
   "keywords": [],
   "author": "",

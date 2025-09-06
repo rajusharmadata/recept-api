@@ -1,6 +1,6 @@
 import express from "express"
-import { ENV } from './config/env.js';
-import { router } from './router/user.router.js';
+import { ENV } from '../config/env.js';
+import { router } from '../router/user.router.js';
 router
 
 
