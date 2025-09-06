@@ -16,6 +16,4 @@ app.get('/api/test', (req, res) => {
  })
 })
 
-app.listen(PORT, () => {
-  console.log(`App is running on the port ${PORT}`);
-})
+export default app
